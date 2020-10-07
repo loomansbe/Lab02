@@ -5,7 +5,7 @@ using System.Transactions;
 
 namespace Lab2Example
 {
-    class Example
+    public class Example
     {
         private double currentValue;
 

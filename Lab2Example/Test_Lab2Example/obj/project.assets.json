@@ -1634,6 +1634,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Lab2Example/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Lab2Example.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab2Example.dll": {}
+        }
       }
     }
   },
@@ -5705,10 +5715,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Lab2Example/1.0.0": {
+      "type": "project",
+      "path": "../Lab2Example/Lab2Example.csproj",
+      "msbuildProject": "../Lab2Example/Lab2Example.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Lab2Example >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5740,7 +5756,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\victo\\Documents\\GitHub\\Lab02\\Lab2Example\\Lab2Example\\Lab2Example.csproj": {
+              "projectPath": "C:\\Users\\victo\\Documents\\GitHub\\Lab02\\Lab2Example\\Lab2Example\\Lab2Example.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
