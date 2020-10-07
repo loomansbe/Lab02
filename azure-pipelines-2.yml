@@ -19,7 +19,7 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    restoreSolution: '$(Lab2Example/Lab2Example/Lab2Example.sln)'
+    restoreSolution: '$(/Lab2Example/Lab2Example/Lab2Example.csproj)'
 
 - task: VSBuild@1
   inputs:
