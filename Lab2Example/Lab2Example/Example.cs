@@ -21,7 +21,7 @@ namespace Lab2Example
 
         public Example add(double adder)
         {
-            currentValue += adder;
+            currentValue -= adder; /* Changed + to - */
             return this;
         }
 
